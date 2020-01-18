@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<body>
+		<h1>My First Youtube Video</h1>
+		<embed src="AAHoB8x.jpeg">
+		<iframe width="420" height="315"
+		src="https://www.youtube.com/embed/bfTv6A1Wn4k?start=180">
+		</iframe>
+		
+		<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+   		</style>
+
+   		<h2>My First Google Map</h3>
+    	<!--The div element for the map -->
+    	<div id="map"></div>
+    	<script>
+		// Initialize and add the map
+		function initMap() {
+  		// The location of Uluru
+  		var uluru = {lat: -25.344, lng: 131.036};
+ 		 // The map, centered at Uluru
+  		var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  	// The marker, positioned at Uluru
+ 		var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    	</script>
+   		<script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIxSwFRKn3m9aA39oJqidV565itdM1HJM&callback=initMap">
+    	</script>
+        
+		<h3>My First Audio</h3>
+        <audio controls>
+  		<source src="horse.ogg" type="audio/ogg">
+  		<source src="horse.mp3" type="audio/mpeg">
+  		Your browser does not support the audio tag.
+		</audio>
+	</body>
+	</head>
+</html>	
