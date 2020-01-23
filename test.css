@@ -1,0 +1,102 @@
+body{
+	background-image: url('memphis-colorful.png');
+
+}
+
+p{
+	color: white;
+	font-family: "Arial";
+	font-weight: bold;
+	
+
+}
+
+h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+li{
+  filter: grayscale(100%);
+}
+
+#Header{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border:solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+	border-style: solid;
+ 	border-color: yellow;
+ 	box-shadow: 5px 10px coral;
+}
+
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+	transform: skewY(20deg)
+}
+
+#LeftNav{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	float: left;
+	border:solid 8px black;
+	text-align: center;
+	padding-bottom: 8px;
+	background-color: #8E41D5;
+	border-style: solid;
+ 	border-color: yellow;
+}
+
+#LeftNav img{
+  	filter: grayscale(100%);
+}
+}
+
+#LeftNav ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#LeftNav h3{
+}
+
+#Content{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border:solid 8px black;
+	text-align: center;
+	padding: 15px;
+	background-color: #8E41D5;
+	border-style: solid;
+ 	border-color: yellow;
+}
+
+#Footer{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border:solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+	border-style: solid;
+ 	border-color: yellow;
+ 	opacity: 0.5;
+	
+}
+
+#Footer ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
