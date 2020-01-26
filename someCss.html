@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+p.a {
+	font-family: Lucidatypewriter, monospace;
+}
+
+p.b {
+  	font-family: Florence, cursive;
+}
+
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 60px 0;
+  font-size: 30px;
+}
+
+	</style>
+	</head>
+	<body>
+<h1>Two Paragraphs With Different Font</h1>
+	<p class="a">
+	Once upon a time, there was a little girl who lived in a village near the forest.  Whenever she went out, the little girl wore a red riding cloak, so everyone in the village called her Little Red Riding Hood.</p>
+	<p class="b">
+	One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been awhile since they'd seen each other.</p>
+
+<h2>Two Images Resized</h2>
+	<img src="img_5terre_wide.jpg" alt="Cinque Terre" width="50px" height="50px">
+	<img src="img_girl.jpg" alt="Girl in a jacket" style="width:50px;height:50px;">
+	
+<h3>The Grid</h3>	
+	<div class="grid-container">
+  	<div class="item1">Red</div>
+  	<div class="item2">Orange</div>
+  	<div class="item3">Yellow</div>  
+  	<div class="item4">Green</div>
+  	<div class="item5">Blue</div>
+  	<div class="item6">Purple</div>
+	</div>
+	</body>
+	</html>
